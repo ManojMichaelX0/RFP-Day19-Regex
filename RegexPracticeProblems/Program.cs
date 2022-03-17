@@ -9,11 +9,12 @@ namespace RegexPracticeProblems
         {
             Console.WriteLine("Regex UC 2 First Name");
            
-            Console.WriteLine("Enter Last Name");
+            Console.WriteLine("Enter Email");
 
-            string last = Console.ReadLine();
+            string email = Console.ReadLine();
+
             
-            if (Regex.Match(last, "^[A-Z][a-z]{1,3}$").Success)
+            if (Regex.Match(email, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$").Success)
             {
                 Console.WriteLine("Success");
             }
