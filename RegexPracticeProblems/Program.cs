@@ -7,12 +7,13 @@ namespace RegexPracticeProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Regex UC 1 First Name");
-            Console.WriteLine("Enter first Name");
+            Console.WriteLine("Regex UC 2 First Name");
+           
+            Console.WriteLine("Enter Last Name");
 
-            string text = Console.ReadLine(); 
+            string last = Console.ReadLine();
             
-            if (Regex.Match(text, "^[A-Z][a-z]{1,3}$").Success)
+            if (Regex.Match(last, "^[A-Z][a-z]{1,3}$").Success)
             {
                 Console.WriteLine("Success");
             }
