@@ -7,7 +7,7 @@ namespace RegexPracticeProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Regex UC 2 First Name");
+            Console.WriteLine("Regex UC 2 Last Name");
            
             Console.WriteLine("Enter Last Name");
 
