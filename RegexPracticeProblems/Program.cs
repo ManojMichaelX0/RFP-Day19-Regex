@@ -12,7 +12,7 @@ namespace RegexPracticeProblems
 
             string text = Console.ReadLine(); 
             
-            if (Regex.Match(text, "^[A-Z][a-z]{1,3}$").Success)
+            if (Regex.Match(text, "^[A-Z][a-z]{3,}$").Success)
             {
                 Console.WriteLine("Success");
             }
