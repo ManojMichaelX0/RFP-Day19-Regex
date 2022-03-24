@@ -13,7 +13,7 @@ namespace RegexPracticeProblems
 
             string last = Console.ReadLine();
             
-            if (Regex.Match(last, "^[A-Z][a-z]{1,3}$").Success)
+            if (Regex.Match(last, "^[A-Z][a-z]{3,}$").Success)
             {
                 Console.WriteLine("Success");
             }
